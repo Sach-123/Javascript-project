@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h3>Login</h3>
+      <form action="">
+      <input id="username" type="text" placeholder="username" />
+      <h5 id="usererror" class="error"></h5>
+      <input id="pwd" type="password" placeholder="password" />
+      <h5 id="pwderror" class="error"></h5>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+      <h5 id="success"></h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

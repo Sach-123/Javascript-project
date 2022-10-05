@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer {
+    color: #2E0249; 
+}
+.num {
+    font-size : 100px;
+}
+.txt {
+    font-size: 40px;
+    color : #541212
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    padding: 10px 20px;
+    font-size : 20px;
+    margin : 0px 20px;
+   box-shadow: 2px 3px 2px black;
+   color: blue;
+   border-radius: 10px;
+}
+.btn:hover {
+    cursor : pointer;
+}
+#start{
+    background-color: green;
+}
+#stop {
+    background-color: yellow;
+}
+#reset {
+    background-color: red;
+}

@@ -1,0 +1,36 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 80vh;
+    background-color: rgb(238, 255, 0);
+}
+
+#container {
+    padding:20px 50px;
+    background-color: rgb(95, 248, 115);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px gray;
+}
+h3 {
+    margin: 5px;
+    text-align: center;
+}
+input {
+    height: 2em;
+    border-radius: 5px;
+}
+button {
+   display: block;
+   margin:0 auto;
+   padding:10px 15px;
+   font-weight: bold;
+   /* background-color: rgb(14, 148, 238); */
+   /* color: rgb(0, 0, 0) */
+}
+.error {
+    margin-top: 0px;
+    color: red
+}
+

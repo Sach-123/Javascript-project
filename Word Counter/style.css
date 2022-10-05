@@ -1,0 +1,25 @@
+body {
+  padding: 50px 100px;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #3306a7;
+  color: #fec260;
+  margin: 0px;
+  padding: 20px 0px;
+}
+textarea {
+  width: 99.5%;
+  border-color: #3306a7;
+  font-size: 25px;
+}
+h2 {
+  background-color: #d2001a;
+  color: #fec260;
+  margin: 0px;
+  text-align: center;
+  margin-top: -5px;
+  padding: 10px 0px;
+}
